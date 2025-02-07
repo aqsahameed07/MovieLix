@@ -1,0 +1,98 @@
+.footer-main-div{
+    background-color: #1a1a1a;
+    color: white;
+    border-radius: 3px 3px 0 0;
+    margin-left: 28px;
+    margin-right: 28px;
+}
+.footer {
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex: 1 1 25%;
+    gap: 50px;
+    align-items: flex-start;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+
+.footer-intro {
+    flex: 2; 
+    max-width: 500px;
+    text-align: center;
+}
+
+.footer-intro h1 {
+    margin: 5px 0;
+    font-size: 13px;
+}
+.footer-intro p {
+    display: inline;
+}
+
+.footer-sections {
+    display: flex;
+    justify-content: space-between;
+    flex: 2; 
+    gap: 5px;
+}
+
+/* Footer Section Styling */
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    font-size: 13px;
+}
+
+.footer-section h1 {
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    margin: 8px 0;
+    cursor: pointer;
+    transition: text-decoration-color 0.3s ease;
+}
+
+.footer-section p:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+/* Newsletter Input */
+.newsletter-input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+    margin-top: 8px;
+    outline: none;
+    color: white;
+    background-color: #060606;
+    border: none;
+    border-bottom: 2px solid #ccc;
+
+}
+
+.newsletter-input:focus {
+    border-bottom: 2px solid white;
+    background-color: #141414;
+}
+.last-section p{
+    color: #353535;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.last-section hr{
+    border: none;
+    height: 1px;
+    background-color: #353535;
+}

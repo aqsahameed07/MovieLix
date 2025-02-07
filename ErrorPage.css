@@ -1,0 +1,37 @@
+.error-page{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
+}
+.error-page img{
+    max-height: 200px;
+    margin-bottom: 10px;
+}
+.error-page p{
+    font-size: 15px;
+    margin: 6px;
+}
+.link{
+    margin: 6px;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(92, 118, 211);
+    padding: 7px;
+    border-radius: 3px;
+    font-weight: 600;
+    transition: background-color 0.3s , color 0.3s;
+
+}
+.error-page button{
+    border: none;
+    padding: 7px;
+}
+.link:hover{
+    background-color: rgb(139, 156, 221);
+    color: rgb(73, 73, 73);
+}

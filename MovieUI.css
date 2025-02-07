@@ -1,0 +1,47 @@
+.movie-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(218, 217, 217);
+    border: 1px solid #cacaca;
+    border-radius: 3px;
+    padding: 13px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .movie-item:hover {
+    transform: scale(1.02); /* Increase size to 110% */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Add a stronger shadow */
+  }
+  
+  .movie-item img {
+    width: 100%; /* Make the image take up the full width of its container */
+    height: 300px; /* Set a fixed height for all images */
+    object-fit: cover; /* Ensures the image fills the area while maintaining its aspect ratio */
+    border-radius: 3px;
+    margin-bottom: 6px;
+  }
+  
+  .movie-item p {
+    font-size: 13px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+  }
+
+  .watch-now-btn {
+    padding: 7px 14px;
+    font-size: 13px;
+    background-color:  #1a1a1a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .watch-now-btn:hover {
+    background-color:  #2d2c2c;
+  }
